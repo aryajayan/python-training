@@ -10,13 +10,15 @@ for i in range(3):
     elif guess_num<num:
         print("lower than the given number")
     else:
-        guessed=True
+        print("Conngrats you got the number!")
         break
-
-if guessed== True:
-    print("Conngrats you got the number!")
 else:
     print("Sorry better luck next time!")
+
+# if guessed== True:
+#   print("Conngrats you got the number!")
+# else:
+#     print("Sorry better luck next time!")
     
 
 # --Output--
